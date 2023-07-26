@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./wether.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+input {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 5px 5px darkgray;
+}
+
+input:focus {
+    background-color: lightseagreen;
+}
+
+.city {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    text-shadow: 1px 1px black;
+}
+
+.date {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.temp {
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 3px goldenrod;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.wether {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+    top: 60%;
+    left: 45%;
+    color: white;
+}
+
+.hi-low {
+    position: absolute;
+    font-size: 200%;
+    top: 70%;
+    left: 45%;
+    color: white;
+}
